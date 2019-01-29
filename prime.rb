@@ -3,7 +3,6 @@ def prime?(number)
   n = number-1
   while prime && n!=1
     prime=false if number%n==0
-    binding.pry
     n-=1
   end
   return prime
