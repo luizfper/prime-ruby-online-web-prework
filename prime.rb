@@ -2,7 +2,6 @@ def prime?(number)
   prime=true
   if number<=0
     return false
-    break
   end
   n = number-1
   while prime && n>1
