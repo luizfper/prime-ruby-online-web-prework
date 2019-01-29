@@ -1,6 +1,9 @@
 def prime?(number)
   prime=true
-  number=number*-1 if number<0
+  if number<=0
+    return false
+    break
+  end
   n = number-1
   while prime && n>1
     prime=false if number%n==0
