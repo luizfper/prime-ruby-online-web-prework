@@ -5,3 +5,4 @@ def prime?(number)
     div=true if number%n==0
     n-=1
   end
+end
