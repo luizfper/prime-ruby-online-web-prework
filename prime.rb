@@ -1,6 +1,6 @@
 def prime?(number)
   prime=true
-  if number<=2
+  if number<=1
     return false
   end
   n = number
